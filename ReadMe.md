@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%7C+MERN+Stack;C%2B%2B+%26+DSA+Enthusiast;Building+Digital+Experiences;Exploring+AI+%26+Machine+Learning;Welcome+to+my+Cyberpunk+World" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=B026FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%7C+MERN+Stack;C%2B%2B+%26+DSA+Enthusiast;Building+Digital+Experiences;Exploring+AI+%26+Machine+Learning;Welcome+to+my+Cyberpunk+World" />
 </p>
 
 # 💫 About Me:
