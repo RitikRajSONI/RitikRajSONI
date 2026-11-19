@@ -5,11 +5,6 @@
      viewBox="0 0 1200 300">
 
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#17102D"/>
-    </linearGradient>
-
     <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#6366F1"/>
       <stop offset="50%" stop-color="#A855F7"/>
@@ -21,14 +16,11 @@
       <stop offset="50%" stop-color="#C084FC"/>
       <stop offset="100%" stop-color="#F472B6"/>
     </linearGradient>
-
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <ellipse cx="600" cy="140" rx="500" ry="180" fill="url(#light)"/>
+  <!-- Transparent Background: No background element -->
 
-  <!-- Animated waves -->
+  <!-- Animated Waves -->
   <path fill="url(#wave)" opacity=".35">
     <animate attributeName="d" dur="18s"
       repeatCount="indefinite"
@@ -58,7 +50,7 @@
       M0 250 Q300 180 600 240 T1200 230 L1200 300 L0 300 Z"/>
   </path>
 
-  <!-- Main heading -->
+  <!-- Main Heading -->
   <text x="600" y="112"
         text-anchor="middle"
         dominant-baseline="middle"
@@ -82,7 +74,7 @@
     MERN STACK DEVELOPER
   </text>
 
-  <!-- Fade animation -->
+  <!-- Fade Animation -->
   <animate attributeName="opacity"
            values="0.96;1;0.96"
            dur="5s"
