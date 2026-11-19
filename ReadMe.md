@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="./assets/header.svg" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8A00C4&center=true&vCenter=true&width=700&lines=Full-Stack+Developer+%7C+MERN+Stack;C%2B%2B+%26+DSA+Enthusiast;Building+Projects+That+Solve+Real+Problems;Always+Learning+%26+Growing" alt="Typing SVG" />
+  </a>
+</p>
+
 # 💫 About Me:
 🔭 I’m currently working on<br>Building full-stack web applications and improving my DSA.<br><br>👯 I’m looking to collaborate on<br>Open-source projects, MERN stack applications, and innovative ideas that solve real-world problems.<br><br>🤝 I’m looking for help with<br>Improving my backend development skills, system design, and writing cleaner, more scalable code.<br><br>🌱 I’m currently learning<br>Data Structures & Algorithms, Full Stack Development, Machine Learning and exploring new technologies in software development.<br><br>💬 Ask me about<br>C++, JavaScript, MERN Stack, Web Development, DSA, and my projects.<br><br>⚡ Fun fact<br>I'm a E-Sports and Sports enthusiast who loves coding, solving problems, and continuously learning something new!
 
