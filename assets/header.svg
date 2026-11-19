@@ -1,107 +1,91 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="300" viewBox="0 0 1200 300">
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="300"
+     viewBox="0 0 1200 300">
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050510"/>
-      <stop offset="50%" stop-color="#100824"/>
-      <stop offset="100%" stop-color="#030713"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#17102D"/>
     </linearGradient>
 
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00F5FF"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#FF00A8"/>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#EC4899"/>
     </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="50%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
 
-    <pattern id="grid" width="40" height="40"
-             patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none"
-            stroke="#00F5FF" stroke-opacity=".12"
-            stroke-width="1"/>
-    </pattern>
   </defs>
 
   <!-- Background -->
   <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
+  <ellipse cx="600" cy="140" rx="500" ry="180" fill="url(#light)"/>
 
-  <!-- Neon border -->
-  <rect x="12" y="12" width="1176" height="276"
-        rx="12" fill="none" stroke="url(#neon)"
-        stroke-width="2" opacity=".8"/>
-
-  <!-- Animated neon waves -->
-  <path fill="none" stroke="#00F5FF"
-        stroke-width="2" opacity=".55" filter="url(#glow)">
-    <animate attributeName="d" dur="8s"
+  <!-- Animated waves -->
+  <path fill="url(#wave)" opacity=".35">
+    <animate attributeName="d" dur="18s"
       repeatCount="indefinite"
       values="
-      M0 230 Q300 130 600 230 T1200 180;
-      M0 180 Q300 280 600 160 T1200 230;
-      M0 230 Q300 130 600 230 T1200 180"/>
+      M0 190 Q300 110 600 180 T1200 170 L1200 300 L0 300 Z;
+      M0 160 Q300 230 600 150 T1200 200 L1200 300 L0 300 Z;
+      M0 190 Q300 110 600 180 T1200 170 L1200 300 L0 300 Z"/>
   </path>
 
-  <path fill="none" stroke="#FF00A8"
-        stroke-width="2" opacity=".6" filter="url(#glow)">
-    <animate attributeName="d" dur="10s"
+  <path fill="url(#wave2)" opacity=".3">
+    <animate attributeName="d" dur="22s"
       repeatCount="indefinite"
+      begin="-10s"
       values="
-      M0 260 Q300 160 600 260 T1200 210;
-      M0 210 Q300 300 600 200 T1200 260;
-      M0 260 Q300 160 600 260 T1200 210"/>
+      M0 220 Q300 140 600 210 T1200 190 L1200 300 L0 300 Z;
+      M0 180 Q300 250 600 190 T1200 220 L1200 300 L0 300 Z;
+      M0 220 Q300 140 600 210 T1200 190 L1200 300 L0 300 Z"/>
   </path>
 
-  <!-- Decorative neon circles -->
-  <circle cx="100" cy="90" r="3" fill="#00F5FF"
-          filter="url(#glow)"/>
-  <circle cx="1100" cy="200" r="4" fill="#FF00A8"
-          filter="url(#glow)"/>
+  <path fill="url(#wave)" opacity=".2">
+    <animate attributeName="d" dur="25s"
+      repeatCount="indefinite"
+      begin="-5s"
+      values="
+      M0 250 Q300 180 600 240 T1200 230 L1200 300 L0 300 Z;
+      M0 220 Q300 280 600 220 T1200 250 L1200 300 L0 300 Z;
+      M0 250 Q300 180 600 240 T1200 230 L1200 300 L0 300 Z"/>
+  </path>
 
-  <!-- Top label -->
-  <text x="600" y="65" text-anchor="middle"
-        font-family="monospace" font-size="14"
-        letter-spacing="5" fill="#00F5FF">
-    &lt; WELCOME TO MY DIGITAL WORLD /&gt;
-  </text>
-
-  <!-- Main title -->
-  <text x="600" y="145" text-anchor="middle"
-        font-family="monospace" font-size="58"
-        font-weight="bold" fill="#FFFFFF"
-        filter="url(#glow)">
-    RITIK RAJ SONI
+  <!-- Main heading -->
+  <text x="600" y="112"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="58"
+        font-weight="700"
+        letter-spacing="1"
+        fill="#FFFFFF">
+    Ritik Raj Soni
   </text>
 
   <!-- Subtitle -->
-  <text x="600" y="185" text-anchor="middle"
-        font-family="monospace" font-size="18"
-        letter-spacing="3" fill="#FF00A8">
-    FULL STACK DEVELOPER
+  <text x="600" y="165"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="19"
+        font-weight="500"
+        letter-spacing="3"
+        fill="#D8C8FF">
+    MERN STACK DEVELOPER
   </text>
 
-  <!-- Bottom terminal line -->
-  <text x="600" y="245" text-anchor="middle"
-        font-family="monospace" font-size="13"
-        fill="#00F5FF" opacity=".9">
-    [ BUILDING THE FUTURE, ONE LINE AT A TIME ]
-  </text>
-
-  <!-- Blinking cursor -->
-  <rect x="1040" y="236" width="8" height="14"
-        fill="#00F5FF">
-    <animate attributeName="opacity"
-      values="1;0;1" dur="1s"
-      repeatCount="indefinite"/>
-  </rect>
+  <!-- Fade animation -->
+  <animate attributeName="opacity"
+           values="0.96;1;0.96"
+           dur="5s"
+           repeatCount="indefinite"/>
 
 </svg>
