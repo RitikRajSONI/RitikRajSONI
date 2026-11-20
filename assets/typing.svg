@@ -15,9 +15,6 @@
       <feGaussianBlur stdDeviation="2.2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="1" fill="#B026FF" opacity=".12"/>
-    </pattern>
     <clipPath id="bar"><rect x="220" y="10" width="760" height="70" rx="14"/></clipPath>
     <clipPath id="c0"><rect x="369.0" y="0" height="90" width="0">
       <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.07;0.19;0.1905;1" values="0;462;462;0;0"/>
@@ -51,15 +48,6 @@
   <circle cx="246" cy="45" r="4" fill="#FF2BD6"/>
   <circle cx="262" cy="45" r="4" fill="#B026FF"/>
   <circle cx="278" cy="45" r="4" fill="#00F0FF"/>
-
-  <!-- HUD corners -->
-  <g fill="none" stroke="#B026FF" stroke-width="2" stroke-linecap="round" opacity=".7">
-    <animate attributeName="opacity" values=".35;.8;.35" dur="4s" repeatCount="indefinite"/>
-    <path d="M196 30 V10 H216"/>
-    <path d="M1004 30 V10 H984"/>
-    <path d="M196 60 V80 H216"/>
-    <path d="M1004 60 V80 H984"/>
-  </g>
 
   <!-- Typed lines -->
   <g font-family="'Fira Code','Cascadia Code',Consolas,monospace">
