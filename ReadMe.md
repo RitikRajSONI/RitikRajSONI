@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=B026FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%7C+MERN+Stack;C%2B%2B+%26+DSA+Enthusiast;Building+Digital+Experiences;Exploring+AI+%26+Machine+Learning;Welcome+to+my+Cyberpunk+World" />
+  <img src="./assets/typing.svg" width="100%" />
 </p>
 
 ## 💫 About Me:
@@ -11,15 +11,15 @@
 
 
 ## 🌐 Socials:
-<div align="left">
+<p align="center">
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919166314140)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ritik_0o5)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ritik-raj-soni-0094bb360)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/ritik0o5)
-[![Email](https://img.shields.io/badge/Soniritik462-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:soniritik462@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-0D1117?style=for-the-badge&logo=whatsapp&logoColor=25D366)](https://wa.me/919166314140)
+[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=FF2BD6)](https://instagram.com/ritik_0o5)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF)](https://linkedin.com/in/ritik-raj-soni-0094bb360)
+[![Facebook](https://img.shields.io/badge/Facebook-0D1117?style=for-the-badge&logo=facebook&logoColor=7C6CFF)](https://facebook.com/ritik0o5)
+[![Email](https://img.shields.io/badge/Soniritik462-0D1117?style=for-the-badge&logo=gmail&logoColor=B026FF)](mailto:soniritik462@gmail.com)
 
-</div>
+</p>
 
 ## 💻 Tech Stack:
 <div align="left">
@@ -36,20 +36,22 @@
 </div>
 
 ## 📊 GitHub Stats:
-<div align="left">
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=RitikRajSONI&hide_border=true&background=0D1117&ring=B026FF&fire=FF2BD6&currStreakNum=FFFFFF&currStreakLabel=00F0FF&sideNums=FFFFFF&sideLabels=B026FF&dates=94A3B8" width="100%" />
+</p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RitikRajSONI&theme=tokyonight&hide_border=true" width="100%"/>
+<p align="center">
+  <img src="https://ghchart.rshah.org/B026FF/RitikRajSONI" width="100%" alt="RitikRajSONI's GitHub contribution chart" />
+</p>
 
-<br/><br/>
-
-<img src="https://ghchart.rshah.org/6366f1/RitikRajSONI" width="100%" alt="MAZHARMIK's github contribution chart"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=RitikRajSONI&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&layout=compact" width="45%" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=RitikRajSONI&hide_border=true&include_all_commits=true&count_private=false&layout=compact&bg_color=0D1117&title_color=B026FF&text_color=C9D1D9" width="50%" />
+</p>
 
 
 ### ✍️ Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B026FF,100:FF2BD6&height=100&section=footer" width="100%" />
