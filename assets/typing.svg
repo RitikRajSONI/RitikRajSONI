@@ -28,9 +28,6 @@
     <clipPath id="c3"><rect x="382.2" y="0" height="90" width="0">
       <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.6;0.67;0.79;0.7905;1" values="0;0;435.6;435.6;0;0"/>
     </rect></clipPath>
-    <clipPath id="c4"><rect x="395.4" y="0" height="90" width="0">
-      <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.8;0.87;0.99;0.9905;1" values="0;0;409.2;409.2;0;0"/>
-    </rect></clipPath>
   </defs>
 
   <!-- Terminal bar -->
