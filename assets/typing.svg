@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90">
+
+  <defs>
+    <linearGradient id="tg" gradientUnits="userSpaceOnUse" x1="370" y1="0" x2="830" y2="0">
+      <stop offset="0%" stop-color="#7C6CFF"/>
+      <stop offset="50%" stop-color="#B026FF"/>
+      <stop offset="100%" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="50%" stop-color="#B026FF"/>
+      <stop offset="100%" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <filter id="neon" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#B026FF" opacity=".12"/>
+    </pattern>
+    <clipPath id="bar"><rect x="220" y="10" width="760" height="70" rx="14"/></clipPath>
+    <clipPath id="c0"><rect x="369.0" y="0" height="90" width="0">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.07;0.19;0.1905;1" values="0;462;462;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c1"><rect x="454.8" y="0" height="90" width="0">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.2;0.27;0.39;0.3905;1" values="0;0;290.4;290.4;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="402.0" y="0" height="90" width="0">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.4;0.47;0.59;0.5905;1" values="0;0;396;396;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="382.2" y="0" height="90" width="0">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.6;0.67;0.79;0.7905;1" values="0;0;435.6;435.6;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c4"><rect x="395.4" y="0" height="90" width="0">
+      <animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.8;0.87;0.99;0.9905;1" values="0;0;409.2;409.2;0;0"/>
+    </rect></clipPath>
+  </defs>
+
+  <!-- Terminal bar -->
+  <rect x="220" y="10" width="760" height="70" rx="14" fill="#0D1117" fill-opacity=".6" stroke="url(#rg)" stroke-opacity=".6" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values=".35;.8;.35" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#bar)">
+    <rect x="220" y="10" width="760" height="70" fill="url(#scan)"/>
+    <rect y="10" width="2" height="70" fill="#00F0FF" opacity=".25">
+      <animate attributeName="x" from="200" to="1000" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Window dots -->
+  <circle cx="246" cy="45" r="4" fill="#FF2BD6"/>
+  <circle cx="262" cy="45" r="4" fill="#B026FF"/>
+  <circle cx="278" cy="45" r="4" fill="#00F0FF"/>
+
+  <!-- HUD corners -->
+  <g fill="none" stroke="#B026FF" stroke-width="2" stroke-linecap="round" opacity=".7">
+    <animate attributeName="opacity" values=".35;.8;.35" dur="4s" repeatCount="indefinite"/>
+    <path d="M196 30 V10 H216"/>
+    <path d="M1004 30 V10 H984"/>
+    <path d="M196 60 V80 H216"/>
+    <path d="M1004 60 V80 H984"/>
+  </g>
+
+  <!-- Typed lines -->
+  <g font-family="'Fira Code','Cascadia Code',Consolas,monospace">
+  <g clip-path="url(#c0)" filter="url(#neon)">
+    <text x="369.0" y="55" font-size="22" font-weight="600" textLength="462.0" lengthAdjust="spacing" fill="url(#tg)"><tspan fill="#00F0FF">&gt; </tspan>Full Stack Developer | MERN Stack</text>
+  </g>
+  <g clip-path="url(#c1)" filter="url(#neon)">
+    <text x="454.8" y="55" font-size="22" font-weight="600" textLength="290.4" lengthAdjust="spacing" fill="url(#tg)"><tspan fill="#00F0FF">&gt; </tspan>C++ &amp; DSA Enthusiast</text>
+  </g>
+  <g clip-path="url(#c2)" filter="url(#neon)">
+    <text x="402.0" y="55" font-size="22" font-weight="600" textLength="396.0" lengthAdjust="spacing" fill="url(#tg)"><tspan fill="#00F0FF">&gt; </tspan>Building Digital Experiences</text>
+  </g>
+  <g clip-path="url(#c3)" filter="url(#neon)">
+    <text x="382.2" y="55" font-size="22" font-weight="600" textLength="435.6" lengthAdjust="spacing" fill="url(#tg)"><tspan fill="#00F0FF">&gt; </tspan>Exploring AI &amp; Machine Learning</text>
+  </g>
+  </g>
+
+  <!-- Cursor -->
+  <rect y="33" width="11" height="26" fill="#00F0FF" filter="url(#neon)">
+    <animate attributeName="x" dur="20s" repeatCount="indefinite" keyTimes="0;0.07;0.19;0.1905;0.2;0.27;0.39;0.3905;0.4;0.47;0.59;0.5905;0.6;0.67;0.79;0.7905;0.8;0.87;0.99;1" values="373;835;835;458.8;458.8;749.2;749.2;406;406;802;802;386.2;386.2;821.8;821.8;399.4;399.4;808.6;808.6;373"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur=".9s" repeatCount="indefinite" calcMode="discrete"/>
+  </rect>
+</svg>
